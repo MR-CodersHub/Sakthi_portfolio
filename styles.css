@@ -1787,15 +1787,15 @@ a {
     .hero-container {
         width: 100vw;
         height: 100vh;
-        min-height: 560px;
-        max-height: 840px;
+        min-height: 480px;
+        max-height: 680px;
         position: relative;
         overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 24px 16px 20px 16px;
+        padding: 20px 16px 16px 16px;
         background: var(--bg-warm-gray);
     }
 
@@ -1812,7 +1812,7 @@ a {
     /* Top Bar: Top-Left 2026 Year Tag */
     .corner-top-left { 
         position: absolute;
-        top: 0px; 
+        top: 4px; 
         left: 8px; 
         z-index: 10;
     }
@@ -1827,7 +1827,7 @@ a {
     /* CENTER STAGE: SINGLE-LINE "FOUNDER" TYPOGRAPHY + CENTERED PORTRAIT */
     .typography-layer {
         position: absolute;
-        top: 48%;
+        top: 47%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -1846,7 +1846,7 @@ a {
     .hero-title, 
     .hero-title-outline { 
         font-family: var(--font-display);
-        font-size: clamp(5rem, 24vw, 10.5rem); 
+        font-size: clamp(5.2rem, 25vw, 11rem); 
         line-height: 0.85;
         letter-spacing: 0.05em;
         text-transform: uppercase;
@@ -1854,14 +1854,14 @@ a {
         text-align: center;
     }
 
-    /* Centered Founder Portrait (Centered, fully visible, floating off bottom) */
+    /* Centered Founder Portrait (Enlarged to fill space cleanly) */
     .portrait-layer { 
         position: absolute;
-        top: 48%;
+        top: 47%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 68vw;
-        max-width: 310px;
+        width: 78vw;
+        max-width: 340px;
         height: auto;
         bottom: auto;
         z-index: 2;
@@ -1875,7 +1875,7 @@ a {
     .founder-portrait-img {
         width: 100%;
         height: auto;
-        max-height: 58vh;
+        max-height: 64vh;
         object-fit: contain;
         display: block;
         filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.18));
@@ -1884,7 +1884,7 @@ a {
     /* BOTTOM BAR: CONTACT LINKS */
     .corner-bottom-right { 
         position: absolute;
-        bottom: 24px; 
+        bottom: 16px; 
         left: 50%;
         right: auto;
         transform: translateX(-50%);
@@ -1895,7 +1895,7 @@ a {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 0.35rem;
+        gap: 0.25rem;
     }
 
     .email-tag { 
@@ -1920,7 +1920,7 @@ a {
     }
 
     /* 02. EDITORIAL INTRODUCTION MOBILE COMPACTNESS */
-    .intro-section { padding: 2.75rem 1.25rem; }
+    .intro-section { padding: 2rem 1.25rem; }
     .intro-editorial-header { gap: 0.85rem; }
     .intro-tag-pill { padding: 0.45rem 1.15rem; }
     .intro-pill-text { font-size: 0.78rem; }
