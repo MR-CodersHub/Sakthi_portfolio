@@ -1703,19 +1703,38 @@ a {
     align-items: center;
     font-size: 0.78rem;
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     color: rgba(255, 255, 255, 0.85);
     flex-wrap: wrap;
     gap: 1rem;
 }
 
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.copyright-line-1,
+.copyright-line-2 {
+    display: inline;
+}
+
 .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.footer-nav-links {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
 .footer-link {
+    color: #FFFFFF;
+    text-decoration: none;
     transition: opacity 0.2s ease;
 }
 
@@ -1989,10 +2008,13 @@ a {
     .canva-right-portrait { height: 280px; min-height: 280px; justify-content: center; margin-top: 0; position: relative; }
     .canva-portrait-img { height: 280px; max-width: 100%; position: relative; }
     .canva-striped-circle { width: 280px; height: 140px; border-radius: 140px 140px 0 0; bottom: 0; left: 50%; transform: translateX(-50%); opacity: 0.14; }
-    .editorial-footer { margin-top: 1.5rem; padding: 1.35rem 1rem; width: 100%; box-sizing: border-box; }
-    .footer-inner { flex-direction: column; align-items: center; text-align: center; gap: 0.65rem; width: 100%; font-size: 0.68rem; letter-spacing: 0.04em; }
-    .copyright-text { display: block; font-size: 0.65rem; letter-spacing: 0.04em; color: rgba(255, 255, 255, 0.75); text-align: center; }
-    .footer-right { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.35rem 0.5rem; font-size: 0.65rem; letter-spacing: 0.04em; width: 100%; }
-    .footer-link { font-size: 0.65rem; letter-spacing: 0.04em; }
-    .footer-divider { opacity: 0.35; margin: 0 0.1rem; }
+    .editorial-footer { margin-top: 1.5rem; padding: 1.5rem 1rem; width: 100%; box-sizing: border-box; }
+    .footer-inner { flex-direction: column; align-items: center; text-align: center; gap: 0.75rem; width: 100%; }
+    .footer-left { flex-direction: column; align-items: center; gap: 0.15rem; text-align: center; width: 100%; }
+    .copyright-line-1, .copyright-line-2 { display: block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em; color: rgba(255, 255, 255, 0.78); text-align: center; white-space: nowrap; }
+    .footer-right { flex-direction: column; align-items: center; gap: 0.45rem; width: 100%; text-align: center; }
+    .footer-email-item { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF; text-align: center; white-space: nowrap; }
+    .footer-nav-links { display: flex; align-items: center; justify-content: center; gap: 0.6rem; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; }
+    .footer-link { font-size: 0.68rem; letter-spacing: 0.08em; }
+    .footer-divider { opacity: 0.4; font-size: 0.6rem; }
 }
