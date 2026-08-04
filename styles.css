@@ -1998,6 +1998,7 @@ a {
 
     /* THANK YOU & FOOTER MOBILE ALIGNMENT */
     .thankyou-section { padding: 2rem 1.25rem 0 1.25rem; }
+    .thankyou-layout-grid { margin-bottom: 0.5rem; }
     .canva-poster-grid { grid-template-columns: 1fr; min-height: auto; }
     .canva-left-content { padding: 1.75rem 1.25rem 1rem 1.25rem; min-height: auto; }
     .canva-title-line { font-size: 3.6rem; }
@@ -2008,8 +2009,8 @@ a {
     .canva-right-portrait { height: 280px; min-height: 280px; justify-content: center; margin-top: 0; position: relative; }
     .canva-portrait-img { height: 280px; max-width: 100%; position: relative; }
     .canva-striped-circle { width: 280px; height: 140px; border-radius: 140px 140px 0 0; bottom: 0; left: 50%; transform: translateX(-50%); opacity: 0.14; }
-    .editorial-footer { margin-top: 1.5rem; padding: 1.5rem 1rem; width: 100%; box-sizing: border-box; }
-    .footer-inner { flex-direction: column; align-items: center; text-align: center; gap: 0.75rem; width: 100%; }
+    .editorial-footer { margin-top: 0.5rem; padding: 1.25rem 1rem; width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; box-sizing: border-box; }
+    .footer-inner { flex-direction: column; align-items: center; text-align: center; gap: 0.65rem; width: 100%; }
     .footer-left { flex-direction: column; align-items: center; gap: 0.15rem; text-align: center; width: 100%; }
     .copyright-line-1, .copyright-line-2 { display: block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em; color: rgba(255, 255, 255, 0.78); text-align: center; white-space: nowrap; }
     .footer-right { flex-direction: column; align-items: center; gap: 0.45rem; width: 100%; text-align: center; }
